@@ -12,7 +12,7 @@ const DegitalMarketing = ({ title, desc }) => {
         rowSpacing={1}
         columnSpacing={{ xs: 1, sm: 2, md: 3 }}
         sx={{
-          backgroundColor: "#eee",
+          
           marginBottom: "20px",
          
         }}
@@ -24,7 +24,7 @@ const DegitalMarketing = ({ title, desc }) => {
           sm={10}
           xs={10}
           sx={{
-            height:{xs:"250px", md:"340px"},
+            height:{xs:"250px", md:"350px"},
 
             margin: "15px auto",
             border: "1px solid",
