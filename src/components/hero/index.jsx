@@ -32,8 +32,8 @@ function Hero() {
               flexDirection: "column",
               gap: "16px",
               overflow: "hidden",
-              backgroundColor:' lightgray',
-              paddingTop: {xs : '30px', md : '10px'},
+
+              paddingTop: { xs: "30px", md: "10px" },
             }}
           >
             <Typography
@@ -41,8 +41,8 @@ function Hero() {
               sx={{
                 fontWeight: 700,
                 color: "white",
-                fontSize: {xs: "34px",sm: '77px', md: "45px", lg: "55px"},
-                lineHeight: {xs: "50px", sm: "65px" , lg:"75px"},
+                fontSize: { xs: "34px", sm: "77px", md: "45px", lg: "55px" },
+                lineHeight: { xs: "50px", sm: "65px", lg: "75px" },
               }}
             >
               All your <span style={{ color: "#E11919" }}>SEO</span> needs, one
@@ -53,7 +53,7 @@ function Hero() {
               <>
                 <Typography
                   sx={{
-                    fontSize: {xs: "14px", sm : "16px", md: "18px"},
+                    fontSize: { xs: "14px", sm: "16px", md: "18px" },
                     color: "white",
                     fontWeight: "300",
                     display: "flex",
@@ -101,14 +101,12 @@ function Hero() {
               Create An Account
             </Button>
           </Grid>
-          
+
           {/* img Grid */}
           <Grid item lg={5} md={6} xs={11}>
             <Box
               sx={{
-                
                 marginLeft: { md: "auto", lg: "auto" },
-                backgroundColor: "#333"
               }}
             >
               <img
