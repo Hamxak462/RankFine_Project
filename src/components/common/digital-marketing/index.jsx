@@ -24,7 +24,7 @@ const DegitalMarketing = ({ title, desc }) => {
           sm={10}
           xs={10}
           sx={{
-            height:{xs:"250px", md:"350px"},
+            height:{xs:"250px", md:"370px"},
 
             margin: "15px auto",
             border: "1px solid",
