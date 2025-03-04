@@ -117,7 +117,7 @@ const ClientsReviewes = () => {
                 </Typography>
                 <Typography>{review.title}</Typography>
                 <Typography sx={{fontSize:"12px"}} >{review.bodyText}</Typography>
-                <Typography>{review.footerTitle}</Typography>
+                <Typography sx={{fontWeight:"600"}}>{review.footerTitle}</Typography>
               </Box>
             </Grid>
           ))}
