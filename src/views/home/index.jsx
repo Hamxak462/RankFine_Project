@@ -4,6 +4,7 @@ import Explore from "../../components/explore";
 import RankDigitalMarketing from "../../components/marketing";
 import { Typography } from "@mui/material";
 import ClientsReviewes from "../../components/reviewes";
+import ContactUs from "../../components/contactUs";
 
 function Home() {
   return (
@@ -12,6 +13,7 @@ function Home() {
       <Explore />
       <RankDigitalMarketing />
       <ClientsReviewes />
+      <ContactUs />
       {/* <Typography variant="h1" sx={{
         marginBottom : "220px"
       }}>Hamxa shah</Typography> */}

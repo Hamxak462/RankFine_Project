@@ -46,7 +46,7 @@ function RankDigitalMarketing() {
           variant="h2"
           sx={{
             fontWeight: 700,
-            fontSize: { xs: "16px", sm: "34px", md: "36px", lg: "35px" },
+            fontSize: { xs: "19px", sm: "34px", md: "36px", lg: "35px" },
             lineHeight: { sm: "35px", md: "39px", lg: "45px" },
             textAlign: "center",
             width: { xs: "85%" },

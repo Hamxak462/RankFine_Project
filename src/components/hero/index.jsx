@@ -41,7 +41,7 @@ function Hero() {
               sx={{
                 fontWeight: 700,
                 color: "white",
-                fontSize: { xs: "34px", sm: "77px", md: "45px", lg: "55px" },
+                fontSize: { xs: "36px", sm: "77px", md: "42px", lg: "55px" },
                 lineHeight: { xs: "50px", sm: "65px", lg: "75px" },
               }}
             >
