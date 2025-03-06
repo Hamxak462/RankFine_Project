@@ -49,7 +49,7 @@ const SeoMarketing = () => {
 
       <Grid container md={10} sx={{ margin: "0 auto" }}>
         {SeoMarketingObj.map((item, index) => (
-          <Grid item md={3} sx={{ width: "325px", margin: "10px auto" }}>
+          <Grid item sm={7} md={3} sx={{ width: "325px", margin: "10px auto" }}>
             <Card sx={{ margin: "10px auto" }}>
               <CardMedia
                 component="img"
@@ -61,7 +61,7 @@ const SeoMarketing = () => {
                 <Typography
                   gutterBottom
                   variant="h5"
-                  sx={{ fontSize: "15px", fontWeight: "600" }}
+                  sx={{ fontSize: {sm:"19px", md:"12px", lg:"16px"}, fontWeight: "600" }}
                 >
                   {item.title}
                 </Typography>
@@ -70,6 +70,7 @@ const SeoMarketing = () => {
                   color="rgba(136, 136, 136, 1)"
                   sx={{
                     lineHeight: "1.5",
+                    fontSize:{sm:"16px", md:"12px"}
                   }}
                 >
                   {item.body}
