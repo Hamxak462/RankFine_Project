@@ -61,7 +61,7 @@ const SeoMarketing = () => {
                 <Typography
                   gutterBottom
                   variant="h5"
-                  sx={{ fontSize: {sm:"19px", md:"12px", lg:"16px"}, fontWeight: "600" }}
+                  sx={{ fontSize: {xs:"16px" , sm:"19px", md:"12px", lg:"16px"}, fontWeight: "600" }}
                 >
                   {item.title}
                 </Typography>
@@ -80,6 +80,13 @@ const SeoMarketing = () => {
           </Grid>
         ))}
       </Grid>
+      <Box sx={{display:"flex", justifyContent:"center"}}>
+      <Button
+        variant="contained"
+        color="primary"
+        size="large"
+        sx={{ fontSize:"12px", fontWeight:"600" , width: "200px", margin:"10px " , padding:"15px 0" }}>Visit academy</Button>
+      </Box>
       {/* </Grid> */}
     </>
   );
