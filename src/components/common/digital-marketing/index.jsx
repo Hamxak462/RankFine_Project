@@ -24,7 +24,7 @@ const DegitalMarketing = ({ title, desc }) => {
           sm={10}
           xs={10}
           sx={{
-            height:{xs:"250px", md:"370px"},
+            height:{xs:"270px", md:"340px"},
 
             margin: "15px auto",
             border: "1px solid",
@@ -57,7 +57,7 @@ const DegitalMarketing = ({ title, desc }) => {
             </Typography>
             <Typography
               sx={{
-                fontSize: {xs: "14px",md: "18px"},
+                fontSize: {xs: "14px",md: "17px"},
                 textAlign: "center",
                 overflow: "hidden",
               }}
