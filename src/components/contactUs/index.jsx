@@ -26,9 +26,9 @@ const ContactUs = () => {
           <Box sx={{
             display: "flex",
             flexDirection: "column",
-            gap: "17px",
-           
+            gap: "26px",   
             padding: "10px",
+            
           }}>
           <Typography variant="h5" sx={{fontWeight:"600"}}>READY TO GROW YOUR BUSINESS?</Typography>
           <Typography variant="p" sx={{fontSize:"20px"}}>
@@ -42,7 +42,8 @@ const ContactUs = () => {
               display: "flex",
               justifyContent: "space-around",
               gap: "20px",
-              marginTop: "10px",
+              marginTop: "21px",
+              marginBottom: "21px",
             }}
           >
             <Button
@@ -51,7 +52,9 @@ const ContactUs = () => {
                 color: "rgba(255, 255, 255, 1)",
                 borderColor: "#fff",
                 marginTop: "20px",
-                padding:"10px 9px"
+                padding:"10px 9px",
+                fontSize:{xs: "12px", md:"16px"}
+
               }}
             >
               <i class="fa-solid fa-message"></i> &nbsp; Get Free Proposal
@@ -62,6 +65,7 @@ const ContactUs = () => {
                 color: "rgba(255, 255, 255, 1)",
                 borderColor: "#fff",
                 marginTop: "20px",
+                fontSize:{xs: "12px", md:"16px"}
               }}
             >
               <i class="fa-solid fa-phone"></i> &nbsp; Call +923485239377
